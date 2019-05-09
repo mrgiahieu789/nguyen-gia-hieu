@@ -1,0 +1,8 @@
+try:
+    a=int(input('nhap a: '))
+    b=int(input('nhap b: '))
+    kq=a/b
+except Exception as ex:
+    print('loi '+str(ex))
+else:
+    print('kq của a/b la:, a/b')
